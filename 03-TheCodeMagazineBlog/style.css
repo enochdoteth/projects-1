@@ -120,3 +120,19 @@ a:active {
   font-style: italic;
 }
 /*lvha*/
+/*Resolving conflicts*/
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
+} */
