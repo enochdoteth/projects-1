@@ -1,12 +1,15 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
-  color: #444;
+* {
+
+  /* border-top: 10px solid #1098ad */
 }
+}
+body {
+  color: #444;
+  font-family: sans-serif;
+
+  border-top: 10px solid #1098ad
+}
+
 h1,
 h2,
 h3 {
@@ -125,14 +128,4 @@ a:active {
   color: red;
 }
 
-.copyright {
-  color: blue;
-}
-
-.text {
-  color: yellow;
-}
-
-footer p {
-  color: green !important;
-} */
+.copyright {<strong>This is the Navigation</strong>
