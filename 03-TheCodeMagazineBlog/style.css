@@ -16,10 +16,9 @@ body {
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
-  padding: 20px 40ding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 .post-header {
@@ -38,6 +37,7 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
+  color: #1098ad;
 }
 
 h2 {
@@ -109,6 +109,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
+  width:
 }
 
 /* .first-li {
@@ -152,6 +153,11 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
 /*lvha*/
 /*Resolving conflicts*/
 /* #copyright {
@@ -159,3 +165,5 @@ a:active {
 }
 
 .copyright {<strong>This is the Navigation</strong>
+
+
