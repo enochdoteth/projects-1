@@ -38,9 +38,10 @@ body {
 
 article {
   margin-bottom: 60px;
+  position: relative;
 
 }
-position: relative;
+
 /* SMALLER ELEMENTS */
 h2,
 h3 {
@@ -123,7 +124,7 @@ aside {
  
 }
 
-}
+
 
 li:nth-child(even) {
   /* color:{
@@ -170,13 +171,13 @@ a:active {
   height: auto;
 }
 
-nav  position: relative;dding: 20px;
+nav { position: relative;dding: 20px;
   display: block; */
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
-
 }
+
 
 nav a:link:last-child {
   margin-right: 0;
@@ -190,6 +191,33 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h3 + p::first-line {
+  color: red;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position:absolute;
+  top: -10px;
+  right: -25px;
+  color: #444;
+}
+
+h2 {
+  /* background-color: orangered; */
+  position: relative;
 }
 /*lvha*/
 /*Resolving conflicts*/
