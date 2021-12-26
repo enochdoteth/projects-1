@@ -153,10 +153,13 @@ a:hover {
   color: orangered;
   font-weight: bold;
   text-decoration: underline orangered;
+  display: inline;
+  padding-right: 16px;
+  
 }
 
 a:active {
-  background-color: black;
+  background-color: #ffe70e;
   font-style: italic;
 }
 
@@ -169,16 +172,19 @@ a:active {
 nav { position: relative;
   padding: 20px;
   display: block; */
-  margin-right: 30px;
+  /* margin-right: 30px; */
   margin-top: 10px;
   display: inline-block;
 }
 
 nav a {
-  margin-right: 15px;
+  padding-right: 20px;
+  display: inline-block;
+
+  /* margin-right: 15px; */
 }
 nav a:link:last-child {
-  margin-right: 0;
+  padding-right: 0;
 }
 
 button {
