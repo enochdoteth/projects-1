@@ -29,18 +29,10 @@ body {
   margin-bottom: 60px;
   /* height: 80px; */
 }
-
-.post-header {
-  margin-bottom: 40px;
-  /* position: relative; */
-  
+/* h3 + p::first-line {
+  color: red;
 }
-
-article {
-  margin-bottom: 60px;
-  position: relative;
-
-}
+ */
 
 /* SMALLER ELEMENTS */
 h2,
@@ -74,7 +66,9 @@ p {
   
 }
 
-ul,ol {
+ul,ol {h3 + p::first-line {
+  color: red;
+}
   margin-left: 50px;
   margin-bottom: 20px;;
 }
@@ -141,9 +135,9 @@ li:nth-child(even) {
 
 /*misconception this wont work*/
 
-article p:first-child {
+/* article p:first-child {
   color: red;
-}
+} */
 
 /*Styling Links*/
 
@@ -171,14 +165,18 @@ a:active {
   height: auto;
 }
 
-nav { position: relative;dding: 20px;
+
+nav { position: relative;
+  padding: 20px;
   display: block; */
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
 }
 
-
+nav a {
+  margin-right: 15px;
+}
 nav a:link:last-child {
   margin-right: 0;
 }
@@ -191,6 +189,13 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
+  
+}
+
+button::first-letter {
+  color: #1098ad;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 24px;
 }
 
 h1::first-letter {
@@ -198,9 +203,9 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-h3 + p::first-line {
+/* h3 + p::first-line {
   color: red;
-}
+} */
 
 h2::after {
   content: "TOP";
@@ -216,13 +221,13 @@ h2::after {
 }
 
 h2 {
-  /* background-color: orangered; */
+ /* background-color: orangered; */
   position: relative;
-}
+} 
 
-.main-header nav {
+/* .main-header nav {
   color: red;
-}
+} */
 /*lvha*/
 /*Resolving conflicts*/
 /* #copyright {
