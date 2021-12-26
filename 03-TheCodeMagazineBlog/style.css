@@ -219,6 +219,10 @@ h2 {
   /* background-color: orangered; */
   position: relative;
 }
+
+.main-header nav {
+  color: red;
+}
 /*lvha*/
 /*Resolving conflicts*/
 /* #copyright {
