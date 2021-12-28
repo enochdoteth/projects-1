@@ -13,10 +13,11 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
+
   
  
 }
@@ -274,5 +275,18 @@ nav {
 /* .clear {
   clear: both; */
 
-.main-header {
-  background-color: orangered;
+article {
+float: left;
+width: 825px;
+/* background-color: green; */
+}
+
+aside {
+ float:  right;
+ width: 300px;
+ /* background-color: blue; */
+}
+footer {
+/* background-color: yellow; */
+clear: both;
+}
