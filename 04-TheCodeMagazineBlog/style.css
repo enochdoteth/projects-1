@@ -266,5 +266,13 @@ nav {
   float: right;
 }
 
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* .clear {
+  clear: both; */
+
 .main-header {
   background-color: orangered;
